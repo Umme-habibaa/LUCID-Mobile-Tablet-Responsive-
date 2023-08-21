@@ -1,0 +1,114 @@
+@media(max-width:767px){
+
+    .hide_dsk{
+        display: block;
+    }
+
+    .hide_mb{
+        display: none;
+    }
+    
+
+    .phone{
+        position: static;
+        width:60%;
+        margin: 50px auto 30px auto;
+    }
+    .height {
+        flex-direction: column-reverse;
+    }
+    .content h4{
+        text-align: center;
+    }
+    content{
+        padding-bottom: 50px;
+    }
+    .heading_content{
+    text-align: center;
+    padding-bottom: 50px;
+     }
+    .navbar-collapse{
+        text-align: center;
+    margin-top: 30px;
+    }
+
+    .nav-item{
+        padding-bottom: 10px;
+    }
+    .nav-link {
+        display: inline;
+    }
+    .feature_item{
+        margin-bottom: 40px;
+    }
+    .phone3{
+        width: 70%;
+        margin: 0 auto 30px;
+    }
+    .slide_item{
+        text-align: center;
+    }
+    .client_details {
+        text-align: center;}
+     .client_details p{
+            text-align: start;
+     }
+     .client {
+        justify-content: center;
+     }
+     .ads_section{
+        text-align: center;
+     }
+     .align{
+        text-align: center !important;
+        margin-top: 20px;
+
+     }
+     .price_table {
+        margin-bottom: 30px
+    }
+    .contact_us {
+        padding-bottom: 500px;
+    }
+    .form_box {
+       
+        padding: 50px 30px;
+       
+        width: 76%;
+    }
+    .map iframe{
+        height: 250px;
+    }
+}
+
+
+@media(max-width:575px){
+
+    .phone{
+        width:50%;
+       }
+    
+    .phone3{
+        width: 50%;
+    }
+
+     .ads_section h2 {
+        margin-bottom: 30px;
+     }
+    
+}
+
+@media(max-width:425px){
+    .content h1 {
+        font-size: 35px;
+    }
+   
+}
+
+@media(max-width:320px){
+    .content h1 {
+        font-size: 30px;
+    }
+   
+}
+
